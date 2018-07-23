@@ -1,0 +1,34 @@
+<template>
+  <div class = "full-width center-content">
+    <hello-component name="Bitch" />
+    <MessageList :messages="messages"/>
+  </div>
+</template>
+
+<script>
+  import HelloComponent from'./components/HelloComponent.vue'
+  import MessageList from './components/MessageList'
+
+  export default{
+<<<<<<< HEAD
+    name: 'App',
+    data: () => ({ messages: ['Hey John', 'Howdy Paco'] }),    
+=======
+    name: 'app',
+>>>>>>> ea012f1b334ee3a68d2c16fadb9f86ac4a91b3a4
+    components: {
+      HelloComponent, MessageList
+    }
+  }
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
